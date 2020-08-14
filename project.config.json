@@ -67,7 +67,7 @@
 					"id": 1,
 					"name": "pages/openDoor/index",
 					"pathName": "pages/openDoor/index",
-					"query": "",
+					"query": "macAddress=2222",
 					"scene": null
 				}
 			]
