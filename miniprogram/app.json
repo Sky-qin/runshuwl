@@ -1,12 +1,14 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/openDoor/index",
+    "pages/authorizedLogin/index",
+    "pages/openedDoor/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "润术智能柜助手",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",

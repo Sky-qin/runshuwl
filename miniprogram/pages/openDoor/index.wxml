@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="open-door-img" src="../../images/qrCode.png" />
+  <div class="open-door-text">
+    扫描二维码开柜
+  </div>
+  <div class="open-door-tip">
+    点击下方扫码开柜按钮后，请扫描电子柜上的二维码，即可打开电子柜哦～
+  </div>
+  <div class="open-door-btn" bindtap="scanQrCode">
+    扫描开柜
+  </div>
+</view>

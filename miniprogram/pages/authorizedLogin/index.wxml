@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <div class="login-wrap">
+    <image class="container-img" src="../../images/login.png" />
+    <div class="login-wrap-button">
+      <button class="login-button" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+        <image class="login-button-img" src="../../images/weixin.png" />
+        点击微信快捷登陆
+      </button>
+    </div>
+  </div>
+</view>

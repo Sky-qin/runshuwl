@@ -1,0 +1,39 @@
+/**index.wxss**/
+.container {
+  height: 100vh;
+  overflow: hidden;
+}
+.login-wrap {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.container-img {
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-wrap-button {
+  position: absolute;
+  width: 100vw;
+  bottom: 161rpx;
+  display: flex;
+  justify-content: center;
+}
+.login-button {
+  color: #fff;
+  padding: 0rpx;
+  line-height: 110rpx;
+  height: 110rpx;
+  width: 480rpx !important;
+  border-radius: 56rpx;
+  background:linear-gradient(180deg,rgba(87,211,87,1) 0%,rgba(9,187,7,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-button-img {
+  height: 40rpx;
+  width: 49rpx;
+  margin-right: 8rpx;
+}
