@@ -59,6 +59,7 @@ Page({
         wx.hideLoading()
         const { data } = res
         if (data && data.success) {
+          app.globalData.userInfo = res.data;
           wx.navigateTo({
             url: '../openedDoor/index',
           })

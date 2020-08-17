@@ -36,7 +36,6 @@ Page({
         if (data && data.success) {
           const { id: userId } = data.data
           wx.setStorageSync('userId', userId)
-
           if (!macAddress) {
             wx.navigateTo({
               url: '../openDoor/index',
@@ -51,8 +50,10 @@ Page({
               userId
             },
             success (res) {
+
               const { data } = res
               if (data && data.success) {
+                app.globalData.userInfo = res.data;
                 wx.redirectTo({
                   url: '../openedDoor/index',
                 })

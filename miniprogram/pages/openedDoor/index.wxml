@@ -2,7 +2,7 @@
 <view class="container">
   <image class="open-door-img" src="../../images/openedCode.png" />
   <div class="open-door-text">
-    开柜成功
+    {{userInfo}}
   </div>
   <div class="open-door-tip">
     恭喜你，扫码登陆成功，您现在可在电子柜中进行操作哦～

@@ -42,4 +42,7 @@ App({
       }
     })
   },
+  globalData: {
+    userInfo: '开柜成功'
+  }
 })
